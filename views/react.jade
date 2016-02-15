@@ -1,0 +1,9 @@
+extends base
+
+block content
+  div#app
+    != html
+  script window.__PROPS__ = !{props}
+  script window.__CONFIG__ = !{config}
+  script(src='/application/js/deps.js')
+  script(src='/application/js/app.js')
