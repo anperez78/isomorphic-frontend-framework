@@ -22,9 +22,9 @@ module.exports = {
         "filename": "./application.log"
       }
     },
-    "validateBirthDateServiceUrl": "http://localhost:3000/validate/birth-date",
-    "transformServiceUrl": "http://localhost:3000/data/transform",
-    "externalSystemServiceUrl": "http://localhost:3000/data/send"
+    "validateBirthDateServiceUrl": "http://isomorphic.local:3000/validate/birth-date",
+    "transformServiceUrl": "http://isomorphic.local:3000/data/transform",
+    "externalSystemServiceUrl": "http://isomorphic.local:3000/data/send"
   },
   "client": {
     "title": "Demo",
